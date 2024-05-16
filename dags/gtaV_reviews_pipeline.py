@@ -121,6 +121,7 @@ def gtaV_reviews_project():
             "AvgHours": totalHours/index,
             "Purchased": buyGame,
             "NotPurchased": notBuyGame,
+            "AvgPurchased": buyGame/index,
             "Users": index,
             "LikedGame": totalYes,
             "AvgLikeGame": totalYes/index,

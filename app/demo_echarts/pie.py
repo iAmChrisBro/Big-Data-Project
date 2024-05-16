@@ -23,6 +23,7 @@ def render_pie_simple():
                     {"value": data['AvgLikeGame'], "name": "Avg Liked Game"},
                     {"value": data['Purchased'], "name": "Player Purchased"},
                     {"value": data['NotPurchased'], "name": "Player Did Not Purchase"},
+                    {"value": data['AvgPurchased'], "name": "Avg Purchase"},
                     {"value": data['RecievedFree'], "name": "Player Recieved Free"},
                     
                 ],
