@@ -1,0 +1,46 @@
+[2024-05-11T23:14:57.969+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:14:56.921209+00:00 [queued]>
+[2024-05-11T23:14:57.976+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:14:56.921209+00:00 [queued]>
+[2024-05-11T23:14:57.977+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-11T23:14:57.991+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonVirtualenvDecoratedOperator): extract> on 2024-05-11 23:14:56.921209+00:00
+[2024-05-11T23:14:57.996+0000] {standard_task_runner.py:60} INFO - Started process 436 to run task
+[2024-05-11T23:14:57.999+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'big_data_python_demo', 'extract', 'manual__2024-05-11T23:14:56.921209+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/python_flow.py', '--cfg-path', '/tmp/tmp_q8_a3a1']
+[2024-05-11T23:14:58.001+0000] {standard_task_runner.py:88} INFO - Job 13: Subtask extract
+[2024-05-11T23:14:58.047+0000] {task_command.py:423} INFO - Running <TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:14:56.921209+00:00 [running]> on host 93cdc42157bb
+[2024-05-11T23:14:58.110+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='big_data_python_demo' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-05-11T23:14:56.921209+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-11T23:14:56.921209+00:00'
+[2024-05-11T23:14:58.112+0000] {process_utils.py:182} INFO - Executing cmd: /usr/local/bin/python -m virtualenv /tmp/venv6l_ea_rg --python=python
+[2024-05-11T23:14:58.121+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:14:58.563+0000] {process_utils.py:190} INFO - created virtual environment CPython3.8.19.final.0-64 in 183ms
+[2024-05-11T23:14:58.564+0000] {process_utils.py:190} INFO -   creator CPython3Posix(dest=/tmp/venv6l_ea_rg, clear=False, no_vcs_ignore=False, global=False)
+[2024-05-11T23:14:58.565+0000] {process_utils.py:190} INFO -   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/***/.local/share/virtualenv)
+[2024-05-11T23:14:58.566+0000] {process_utils.py:190} INFO -     added seed packages: pip==24.0, setuptools==69.1.0, wheel==0.42.0
+[2024-05-11T23:14:58.567+0000] {process_utils.py:190} INFO -   activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+[2024-05-11T23:14:58.585+0000] {process_utils.py:182} INFO - Executing cmd: /tmp/venv6l_ea_rg/bin/pip install -r /tmp/venv6l_ea_rg/requirements.txt
+[2024-05-11T23:14:58.594+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:14:59.439+0000] {process_utils.py:190} INFO - ERROR: Invalid requirement: 'funcsigs, pandas' (from line 2 of /tmp/venv6l_ea_rg/requirements.txt)
+[2024-05-11T23:14:59.681+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 401, in execute
+    return super().execute(context=serializable_context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 721, in execute_callable
+    self._prepare_venv(tmp_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 633, in _prepare_venv
+    prepare_virtualenv(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/python_virtualenv.py", line 118, in prepare_virtualenv
+    execute_in_subprocess(pip_cmd)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/process_utils.py", line 171, in execute_in_subprocess
+    execute_in_subprocess_with_kwargs(cmd, cwd=cwd)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/process_utils.py", line 194, in execute_in_subprocess_with_kwargs
+    raise subprocess.CalledProcessError(exit_code, cmd)
+subprocess.CalledProcessError: Command '['/tmp/venv6l_ea_rg/bin/pip', 'install', '-r', '/tmp/venv6l_ea_rg/requirements.txt']' returned non-zero exit status 1.
+[2024-05-11T23:14:59.689+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=big_data_python_demo, task_id=extract, execution_date=20240511T231456, start_date=20240511T231457, end_date=20240511T231459
+[2024-05-11T23:14:59.702+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 13 for task extract (Command '['/tmp/venv6l_ea_rg/bin/pip', 'install', '-r', '/tmp/venv6l_ea_rg/requirements.txt']' returned non-zero exit status 1.; 436)
+[2024-05-11T23:14:59.741+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-11T23:14:59.759+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

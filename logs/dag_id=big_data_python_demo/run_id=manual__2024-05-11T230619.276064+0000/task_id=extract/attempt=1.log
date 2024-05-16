@@ -1,0 +1,33 @@
+[2024-05-11T23:06:21.455+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:06:19.276064+00:00 [queued]>
+[2024-05-11T23:06:21.461+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:06:19.276064+00:00 [queued]>
+[2024-05-11T23:06:21.462+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-11T23:06:21.475+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonVirtualenvDecoratedOperator): extract> on 2024-05-11 23:06:19.276064+00:00
+[2024-05-11T23:06:21.480+0000] {standard_task_runner.py:60} INFO - Started process 81 to run task
+[2024-05-11T23:06:21.483+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'big_data_python_demo', 'extract', 'manual__2024-05-11T23:06:19.276064+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/python_flow.py', '--cfg-path', '/tmp/tmpmrutlscd']
+[2024-05-11T23:06:21.486+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask extract
+[2024-05-11T23:06:21.536+0000] {task_command.py:423} INFO - Running <TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:06:19.276064+00:00 [running]> on host 93cdc42157bb
+[2024-05-11T23:06:21.593+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='big_data_python_demo' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-05-11T23:06:19.276064+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-11T23:06:19.276064+00:00'
+[2024-05-11T23:06:21.596+0000] {process_utils.py:182} INFO - Executing cmd: /usr/local/bin/python -m virtualenv /tmp/venvwhmf2exx --python=python
+[2024-05-11T23:06:21.604+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:06:22.295+0000] {process_utils.py:190} INFO - created virtual environment CPython3.8.19.final.0-64 in 382ms
+[2024-05-11T23:06:22.295+0000] {process_utils.py:190} INFO -   creator CPython3Posix(dest=/tmp/venvwhmf2exx, clear=False, no_vcs_ignore=False, global=False)
+[2024-05-11T23:06:22.296+0000] {process_utils.py:190} INFO -   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/***/.local/share/virtualenv)
+[2024-05-11T23:06:22.296+0000] {process_utils.py:190} INFO -     added seed packages: pip==24.0, setuptools==69.1.0, wheel==0.42.0
+[2024-05-11T23:06:22.297+0000] {process_utils.py:190} INFO -   activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+[2024-05-11T23:06:22.323+0000] {process_utils.py:182} INFO - Executing cmd: /tmp/venvwhmf2exx/bin/pip install -r /tmp/venvwhmf2exx/requirements.txt
+[2024-05-11T23:06:22.330+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:06:23.377+0000] {process_utils.py:190} INFO - Collecting dill (from -r /tmp/venvwhmf2exx/requirements.txt (line 1))
+[2024-05-11T23:06:23.501+0000] {process_utils.py:190} INFO -   Downloading dill-0.3.8-py3-none-any.whl.metadata (10 kB)
+[2024-05-11T23:06:23.632+0000] {process_utils.py:190} INFO - Collecting funcsigs (from -r /tmp/venvwhmf2exx/requirements.txt (line 2))
+[2024-05-11T23:06:23.662+0000] {process_utils.py:190} INFO -   Downloading funcsigs-1.0.2-py2.py3-none-any.whl.metadata (14 kB)
+[2024-05-11T23:06:23.710+0000] {process_utils.py:190} INFO - Downloading dill-0.3.8-py3-none-any.whl (116 kB)
+[2024-05-11T23:06:23.763+0000] {process_utils.py:190} INFO -    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 116.3/116.3 kB 2.2 MB/s eta 0:00:00
+[2024-05-11T23:06:23.782+0000] {process_utils.py:190} INFO - Downloading funcsigs-1.0.2-py2.py3-none-any.whl (17 kB)
+[2024-05-11T23:06:23.855+0000] {process_utils.py:190} INFO - Installing collected packages: funcsigs, dill
+[2024-05-11T23:06:23.978+0000] {process_utils.py:190} INFO - Successfully installed dill-0.3.8 funcsigs-1.0.2
+[2024-05-11T23:06:24.218+0000] {process_utils.py:182} INFO - Executing cmd: /tmp/venvwhmf2exx/bin/python /tmp/venv-callagocbicq/script.py /tmp/venv-callagocbicq/script.in /tmp/venv-callagocbicq/script.out /tmp/venv-callagocbicq/string_args.txt /tmp/venv-callagocbicq/termination.log
+[2024-05-11T23:06:24.226+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:06:24.306+0000] {python.py:202} INFO - Done. Returned value was: {'1001': 301.27, '1002': 433.21, '1003': 502.22}
+[2024-05-11T23:06:24.328+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=big_data_python_demo, task_id=extract, execution_date=20240511T230619, start_date=20240511T230621, end_date=20240511T230624
+[2024-05-11T23:06:24.348+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-11T23:06:24.367+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,88 @@
+[2024-05-11T23:16:03.501+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:16:02.138791+00:00 [queued]>
+[2024-05-11T23:16:03.507+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:16:02.138791+00:00 [queued]>
+[2024-05-11T23:16:03.508+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-11T23:16:03.521+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonVirtualenvDecoratedOperator): extract> on 2024-05-11 23:16:02.138791+00:00
+[2024-05-11T23:16:03.526+0000] {standard_task_runner.py:60} INFO - Started process 481 to run task
+[2024-05-11T23:16:03.529+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'big_data_python_demo', 'extract', 'manual__2024-05-11T23:16:02.138791+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/python_flow.py', '--cfg-path', '/tmp/tmpa6a6y_9q']
+[2024-05-11T23:16:03.532+0000] {standard_task_runner.py:88} INFO - Job 14: Subtask extract
+[2024-05-11T23:16:03.579+0000] {task_command.py:423} INFO - Running <TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:16:02.138791+00:00 [running]> on host 93cdc42157bb
+[2024-05-11T23:16:03.648+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='big_data_python_demo' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-05-11T23:16:02.138791+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-11T23:16:02.138791+00:00'
+[2024-05-11T23:16:03.650+0000] {process_utils.py:182} INFO - Executing cmd: /usr/local/bin/python -m virtualenv /tmp/venv47wd__tz --python=python
+[2024-05-11T23:16:03.659+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:16:04.085+0000] {process_utils.py:190} INFO - created virtual environment CPython3.8.19.final.0-64 in 152ms
+[2024-05-11T23:16:04.086+0000] {process_utils.py:190} INFO -   creator CPython3Posix(dest=/tmp/venv47wd__tz, clear=False, no_vcs_ignore=False, global=False)
+[2024-05-11T23:16:04.087+0000] {process_utils.py:190} INFO -   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/***/.local/share/virtualenv)
+[2024-05-11T23:16:04.088+0000] {process_utils.py:190} INFO -     added seed packages: pip==24.0, setuptools==69.1.0, wheel==0.42.0
+[2024-05-11T23:16:04.090+0000] {process_utils.py:190} INFO -   activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+[2024-05-11T23:16:04.107+0000] {process_utils.py:182} INFO - Executing cmd: /tmp/venv47wd__tz/bin/pip install -r /tmp/venv47wd__tz/requirements.txt
+[2024-05-11T23:16:04.115+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:16:04.882+0000] {process_utils.py:190} INFO - Collecting dill (from -r /tmp/venv47wd__tz/requirements.txt (line 1))
+[2024-05-11T23:16:04.883+0000] {process_utils.py:190} INFO -   Using cached dill-0.3.8-py3-none-any.whl.metadata (10 kB)
+[2024-05-11T23:16:04.919+0000] {process_utils.py:190} INFO - Collecting funcsigs (from -r /tmp/venv47wd__tz/requirements.txt (line 2))
+[2024-05-11T23:16:04.921+0000] {process_utils.py:190} INFO -   Using cached funcsigs-1.0.2-py2.py3-none-any.whl.metadata (14 kB)
+[2024-05-11T23:16:05.107+0000] {process_utils.py:190} INFO - Collecting pandas (from -r /tmp/venv47wd__tz/requirements.txt (line 3))
+[2024-05-11T23:16:05.225+0000] {process_utils.py:190} INFO -   Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+[2024-05-11T23:16:05.365+0000] {process_utils.py:190} INFO - Collecting python-dateutil>=2.8.2 (from pandas->-r /tmp/venv47wd__tz/requirements.txt (line 3))
+[2024-05-11T23:16:05.393+0000] {process_utils.py:190} INFO -   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+[2024-05-11T23:16:05.487+0000] {process_utils.py:190} INFO - Collecting pytz>=2020.1 (from pandas->-r /tmp/venv47wd__tz/requirements.txt (line 3))
+[2024-05-11T23:16:05.516+0000] {process_utils.py:190} INFO -   Downloading pytz-2024.1-py2.py3-none-any.whl.metadata (22 kB)
+[2024-05-11T23:16:05.589+0000] {process_utils.py:190} INFO - Collecting tzdata>=2022.1 (from pandas->-r /tmp/venv47wd__tz/requirements.txt (line 3))
+[2024-05-11T23:16:05.611+0000] {process_utils.py:190} INFO -   Downloading tzdata-2024.1-py2.py3-none-any.whl.metadata (1.4 kB)
+[2024-05-11T23:16:05.840+0000] {process_utils.py:190} INFO - Collecting numpy>=1.20.3 (from pandas->-r /tmp/venv47wd__tz/requirements.txt (line 3))
+[2024-05-11T23:16:05.863+0000] {process_utils.py:190} INFO -   Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.6 kB)
+[2024-05-11T23:16:05.926+0000] {process_utils.py:190} INFO - Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas->-r /tmp/venv47wd__tz/requirements.txt (line 3))
+[2024-05-11T23:16:05.946+0000] {process_utils.py:190} INFO -   Downloading six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+[2024-05-11T23:16:05.968+0000] {process_utils.py:190} INFO - Using cached dill-0.3.8-py3-none-any.whl (116 kB)
+[2024-05-11T23:16:05.969+0000] {process_utils.py:190} INFO - Using cached funcsigs-1.0.2-py2.py3-none-any.whl (17 kB)
+[2024-05-11T23:16:05.989+0000] {process_utils.py:190} INFO - Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+[2024-05-11T23:16:06.414+0000] {process_utils.py:190} INFO -    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 35.3 MB/s eta 0:00:00
+[2024-05-11T23:16:06.440+0000] {process_utils.py:190} INFO - Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+[2024-05-11T23:16:06.933+0000] {process_utils.py:190} INFO -    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 33.6 MB/s eta 0:00:00
+[2024-05-11T23:16:06.953+0000] {process_utils.py:190} INFO - Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+[2024-05-11T23:16:06.977+0000] {process_utils.py:190} INFO -    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 9.8 MB/s eta 0:00:00
+[2024-05-11T23:16:07.005+0000] {process_utils.py:190} INFO - Downloading pytz-2024.1-py2.py3-none-any.whl (505 kB)
+[2024-05-11T23:16:07.041+0000] {process_utils.py:190} INFO -    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 505.5/505.5 kB 14.6 MB/s eta 0:00:00
+[2024-05-11T23:16:07.063+0000] {process_utils.py:190} INFO - Downloading tzdata-2024.1-py2.py3-none-any.whl (345 kB)
+[2024-05-11T23:16:07.095+0000] {process_utils.py:190} INFO -    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 345.4/345.4 kB 13.6 MB/s eta 0:00:00
+[2024-05-11T23:16:07.115+0000] {process_utils.py:190} INFO - Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+[2024-05-11T23:16:07.298+0000] {process_utils.py:190} INFO - Installing collected packages: pytz, funcsigs, tzdata, six, numpy, dill, python-dateutil, pandas
+[2024-05-11T23:16:11.622+0000] {process_utils.py:190} INFO - Successfully installed dill-0.3.8 funcsigs-1.0.2 numpy-1.24.4 pandas-2.0.3 python-dateutil-2.9.0.post0 pytz-2024.1 six-1.16.0 tzdata-2024.1
+[2024-05-11T23:16:11.867+0000] {process_utils.py:182} INFO - Executing cmd: /tmp/venv47wd__tz/bin/python /tmp/venv-call2vvbfsap/script.py /tmp/venv-call2vvbfsap/script.in /tmp/venv-call2vvbfsap/script.out /tmp/venv-call2vvbfsap/string_args.txt /tmp/venv-call2vvbfsap/termination.log
+[2024-05-11T23:16:11.874+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:16:12.134+0000] {process_utils.py:190} INFO - Traceback (most recent call last):
+[2024-05-11T23:16:12.135+0000] {process_utils.py:190} INFO -   File "/tmp/venv-call2vvbfsap/script.py", line 58, in <module>
+[2024-05-11T23:16:12.136+0000] {process_utils.py:190} INFO -     res = extract(*arg_dict["args"], **arg_dict["kwargs"])
+[2024-05-11T23:16:12.137+0000] {process_utils.py:190} INFO -   File "/tmp/venv-call2vvbfsap/script.py", line 25, in extract
+[2024-05-11T23:16:12.138+0000] {process_utils.py:190} INFO -     data = pd.read_excel('testFile.xlsx')
+[2024-05-11T23:16:12.139+0000] {process_utils.py:190} INFO -   File "/tmp/venv47wd__tz/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 478, in read_excel
+[2024-05-11T23:16:12.140+0000] {process_utils.py:190} INFO -     io = ExcelFile(io, storage_options=storage_options, engine=engine)
+[2024-05-11T23:16:12.141+0000] {process_utils.py:190} INFO -   File "/tmp/venv47wd__tz/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 1496, in __init__
+[2024-05-11T23:16:12.142+0000] {process_utils.py:190} INFO -     ext = inspect_excel_format(
+[2024-05-11T23:16:12.142+0000] {process_utils.py:190} INFO -   File "/tmp/venv47wd__tz/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 1371, in inspect_excel_format
+[2024-05-11T23:16:12.143+0000] {process_utils.py:190} INFO -     with get_handle(
+[2024-05-11T23:16:12.144+0000] {process_utils.py:190} INFO -   File "/tmp/venv47wd__tz/lib/python3.8/site-packages/pandas/io/common.py", line 868, in get_handle
+[2024-05-11T23:16:12.145+0000] {process_utils.py:190} INFO -     handle = open(handle, ioargs.mode)
+[2024-05-11T23:16:12.146+0000] {process_utils.py:190} INFO - FileNotFoundError: [Errno 2] No such file or directory: 'testFile.xlsx'
+[2024-05-11T23:16:12.268+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 401, in execute
+    return super().execute(context=serializable_context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 723, in execute_callable
+    result = self._execute_python_callable_in_subprocess(python_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 478, in _execute_python_callable_in_subprocess
+    raise AirflowException(error_msg) from None
+airflow.exceptions.AirflowException: Process returned non-zero exit status 1.
+[Errno 2] No such file or directory: 'testFile.xlsx'
+[2024-05-11T23:16:12.271+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=big_data_python_demo, task_id=extract, execution_date=20240511T231602, start_date=20240511T231603, end_date=20240511T231612
+[2024-05-11T23:16:12.285+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 14 for task extract (Process returned non-zero exit status 1.
+[Errno 2] No such file or directory: 'testFile.xlsx'; 481)
+[2024-05-11T23:16:12.298+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-11T23:16:12.312+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

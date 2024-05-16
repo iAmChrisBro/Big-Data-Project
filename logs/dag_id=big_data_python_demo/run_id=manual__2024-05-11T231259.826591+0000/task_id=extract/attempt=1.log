@@ -1,0 +1,57 @@
+[2024-05-11T23:13:01.174+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:12:59.826591+00:00 [queued]>
+[2024-05-11T23:13:01.181+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:12:59.826591+00:00 [queued]>
+[2024-05-11T23:13:01.181+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-11T23:13:01.196+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonVirtualenvDecoratedOperator): extract> on 2024-05-11 23:12:59.826591+00:00
+[2024-05-11T23:13:01.201+0000] {standard_task_runner.py:60} INFO - Started process 345 to run task
+[2024-05-11T23:13:01.204+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'big_data_python_demo', 'extract', 'manual__2024-05-11T23:12:59.826591+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/python_flow.py', '--cfg-path', '/tmp/tmpc5_5yt2h']
+[2024-05-11T23:13:01.206+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask extract
+[2024-05-11T23:13:01.253+0000] {task_command.py:423} INFO - Running <TaskInstance: big_data_python_demo.extract manual__2024-05-11T23:12:59.826591+00:00 [running]> on host 93cdc42157bb
+[2024-05-11T23:13:01.324+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='big_data_python_demo' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-05-11T23:12:59.826591+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-11T23:12:59.826591+00:00'
+[2024-05-11T23:13:01.327+0000] {process_utils.py:182} INFO - Executing cmd: /usr/local/bin/python -m virtualenv /tmp/venv_6fvg_w_ --python=python
+[2024-05-11T23:13:01.334+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:13:01.765+0000] {process_utils.py:190} INFO - created virtual environment CPython3.8.19.final.0-64 in 175ms
+[2024-05-11T23:13:01.766+0000] {process_utils.py:190} INFO -   creator CPython3Posix(dest=/tmp/venv_6fvg_w_, clear=False, no_vcs_ignore=False, global=False)
+[2024-05-11T23:13:01.767+0000] {process_utils.py:190} INFO -   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/***/.local/share/virtualenv)
+[2024-05-11T23:13:01.767+0000] {process_utils.py:190} INFO -     added seed packages: pip==24.0, setuptools==69.1.0, wheel==0.42.0
+[2024-05-11T23:13:01.768+0000] {process_utils.py:190} INFO -   activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+[2024-05-11T23:13:01.790+0000] {process_utils.py:182} INFO - Executing cmd: /tmp/venv_6fvg_w_/bin/pip install -r /tmp/venv_6fvg_w_/requirements.txt
+[2024-05-11T23:13:01.798+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:13:02.614+0000] {process_utils.py:190} INFO - Collecting dill (from -r /tmp/venv_6fvg_w_/requirements.txt (line 1))
+[2024-05-11T23:13:02.616+0000] {process_utils.py:190} INFO -   Using cached dill-0.3.8-py3-none-any.whl.metadata (10 kB)
+[2024-05-11T23:13:02.654+0000] {process_utils.py:190} INFO - Collecting funcsigs (from -r /tmp/venv_6fvg_w_/requirements.txt (line 2))
+[2024-05-11T23:13:02.656+0000] {process_utils.py:190} INFO -   Using cached funcsigs-1.0.2-py2.py3-none-any.whl.metadata (14 kB)
+[2024-05-11T23:13:02.663+0000] {process_utils.py:190} INFO - Using cached dill-0.3.8-py3-none-any.whl (116 kB)
+[2024-05-11T23:13:02.665+0000] {process_utils.py:190} INFO - Using cached funcsigs-1.0.2-py2.py3-none-any.whl (17 kB)
+[2024-05-11T23:13:02.713+0000] {process_utils.py:190} INFO - Installing collected packages: funcsigs, dill
+[2024-05-11T23:13:02.887+0000] {process_utils.py:190} INFO - Successfully installed dill-0.3.8 funcsigs-1.0.2
+[2024-05-11T23:13:03.134+0000] {process_utils.py:182} INFO - Executing cmd: /tmp/venv_6fvg_w_/bin/python /tmp/venv-callth4p6jxm/script.py /tmp/venv-callth4p6jxm/script.in /tmp/venv-callth4p6jxm/script.out /tmp/venv-callth4p6jxm/string_args.txt /tmp/venv-callth4p6jxm/termination.log
+[2024-05-11T23:13:03.147+0000] {process_utils.py:186} INFO - Output:
+[2024-05-11T23:13:03.215+0000] {process_utils.py:190} INFO - Traceback (most recent call last):
+[2024-05-11T23:13:03.216+0000] {process_utils.py:190} INFO -   File "/tmp/venv-callth4p6jxm/script.py", line 58, in <module>
+[2024-05-11T23:13:03.217+0000] {process_utils.py:190} INFO -     res = extract(*arg_dict["args"], **arg_dict["kwargs"])
+[2024-05-11T23:13:03.218+0000] {process_utils.py:190} INFO -   File "/tmp/venv-callth4p6jxm/script.py", line 24, in extract
+[2024-05-11T23:13:03.218+0000] {process_utils.py:190} INFO -     import pandas as pd
+[2024-05-11T23:13:03.219+0000] {process_utils.py:190} INFO - ModuleNotFoundError: No module named 'pandas'
+[2024-05-11T23:13:03.256+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 401, in execute
+    return super().execute(context=serializable_context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 723, in execute_callable
+    result = self._execute_python_callable_in_subprocess(python_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 478, in _execute_python_callable_in_subprocess
+    raise AirflowException(error_msg) from None
+airflow.exceptions.AirflowException: Process returned non-zero exit status 1.
+No module named 'pandas'
+[2024-05-11T23:13:03.260+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=big_data_python_demo, task_id=extract, execution_date=20240511T231259, start_date=20240511T231301, end_date=20240511T231303
+[2024-05-11T23:13:03.277+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 11 for task extract (Process returned non-zero exit status 1.
+No module named 'pandas'; 345)
+[2024-05-11T23:13:03.303+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-11T23:13:03.324+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

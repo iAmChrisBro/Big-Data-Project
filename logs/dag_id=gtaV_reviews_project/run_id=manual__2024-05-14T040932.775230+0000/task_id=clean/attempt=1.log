@@ -1,0 +1,44 @@
+[2024-05-14T04:09:44.465+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: gtaV_reviews_project.clean manual__2024-05-14T04:09:32.775230+00:00 [queued]>
+[2024-05-14T04:09:44.472+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: gtaV_reviews_project.clean manual__2024-05-14T04:09:32.775230+00:00 [queued]>
+[2024-05-14T04:09:44.473+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-14T04:09:44.486+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): clean> on 2024-05-14 04:09:32.775230+00:00
+[2024-05-14T04:09:44.491+0000] {standard_task_runner.py:60} INFO - Started process 883 to run task
+[2024-05-14T04:09:44.494+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'gtaV_reviews_project', 'clean', 'manual__2024-05-14T04:09:32.775230+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/gtaV_reviews_pipeline.py', '--cfg-path', '/tmp/tmphurdimbj']
+[2024-05-14T04:09:44.495+0000] {standard_task_runner.py:88} INFO - Job 84: Subtask clean
+[2024-05-14T04:09:44.536+0000] {task_command.py:423} INFO - Running <TaskInstance: gtaV_reviews_project.clean manual__2024-05-14T04:09:32.775230+00:00 [running]> on host bc094ad74ee5
+[2024-05-14T04:09:44.602+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='gtaV_reviews_project' AIRFLOW_CTX_TASK_ID='clean' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T04:09:32.775230+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-14T04:09:32.775230+00:00'
+[2024-05-14T04:09:44.699+0000] {logging_mixin.py:188} INFO - Columns in the DataFrame: ['id', 'language', 'review', 'created', 'voted_up', 'votes_up', 'comment_count', 'steam_purchase', 'recieved_for_free', 'written_during_early_access', 'author_num_games_owned', 'author_num_reviews', 'author_playtime_forever', 'author_playtime_last_two_weeks', 'author_playtime_at_review', 'author_last_played']
+[2024-05-14T04:09:44.717+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: ('created', 'voted_up', 'review', 'steam_purchase', 'recieved_for_free', 'author_playtime_forever')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/gtaV_reviews_pipeline.py", line 55, in clean
+    cleaned_data = review_data['created', 'voted_up', 'review', 'steam_purchase', 'recieved_for_free', 'author_playtime_forever']
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: ('created', 'voted_up', 'review', 'steam_purchase', 'recieved_for_free', 'author_playtime_forever')
+[2024-05-14T04:09:44.735+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=gtaV_reviews_project, task_id=clean, execution_date=20240514T040932, start_date=20240514T040944, end_date=20240514T040944
+[2024-05-14T04:09:44.747+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 84 for task clean (('created', 'voted_up', 'review', 'steam_purchase', 'recieved_for_free', 'author_playtime_forever'); 883)
+[2024-05-14T04:09:44.788+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-14T04:09:44.805+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

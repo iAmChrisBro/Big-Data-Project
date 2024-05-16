@@ -1,0 +1,250 @@
+[2024-05-16T00:57:55.279+0000] {processor.py:161} INFO - Started process (PID=49) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:57:55.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T00:57:55.283+0000] {logging_mixin.py:188} INFO - [2024-05-16T00:57:55.282+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:57:55.306+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:57:55.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.052 seconds
+[2024-05-16T00:58:25.955+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:58:25.957+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T00:58:25.962+0000] {logging_mixin.py:188} INFO - [2024-05-16T00:58:25.961+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:58:25.990+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:58:26.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.077 seconds
+[2024-05-16T00:58:56.714+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:58:56.716+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T00:58:56.718+0000] {logging_mixin.py:188} INFO - [2024-05-16T00:58:56.718+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:58:56.746+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:58:56.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.049 seconds
+[2024-05-16T00:59:27.175+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:59:27.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T00:59:27.178+0000] {logging_mixin.py:188} INFO - [2024-05-16T00:59:27.177+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:59:27.187+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:59:27.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.028 seconds
+[2024-05-16T00:59:57.567+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:59:57.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T00:59:57.571+0000] {logging_mixin.py:188} INFO - [2024-05-16T00:59:57.571+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:59:57.580+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T00:59:57.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.029 seconds
+[2024-05-16T01:00:27.958+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:00:27.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:00:27.961+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:00:27.961+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:00:27.982+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:00:27.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.041 seconds
+[2024-05-16T01:00:58.692+0000] {processor.py:161} INFO - Started process (PID=401) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:00:58.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:00:58.695+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:00:58.695+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:00:58.702+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:00:58.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.023 seconds
+[2024-05-16T01:01:29.190+0000] {processor.py:161} INFO - Started process (PID=460) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:01:29.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:01:29.193+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:01:29.193+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:01:29.199+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:01:29.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.023 seconds
+[2024-05-16T01:01:59.692+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:01:59.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:01:59.697+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:01:59.696+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:01:59.719+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:01:59.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.045 seconds
+[2024-05-16T01:02:30.350+0000] {processor.py:161} INFO - Started process (PID=577) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:02:30.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:02:30.354+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:02:30.353+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:02:30.377+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:02:30.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.050 seconds
+[2024-05-16T01:03:00.906+0000] {processor.py:161} INFO - Started process (PID=635) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:03:00.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:03:00.910+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:03:00.910+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:03:00.928+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:03:00.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.045 seconds
+[2024-05-16T01:03:31.536+0000] {processor.py:161} INFO - Started process (PID=694) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:03:31.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:03:31.540+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:03:31.540+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:03:31.552+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:03:31.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.034 seconds
+[2024-05-16T01:04:02.486+0000] {processor.py:161} INFO - Started process (PID=753) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:04:02.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:04:02.491+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:04:02.491+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:04:02.527+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:04:02.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.068 seconds
+[2024-05-16T01:04:33.083+0000] {processor.py:161} INFO - Started process (PID=812) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:04:33.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:04:33.087+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:04:33.087+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:04:33.108+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:04:33.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.046 seconds
+[2024-05-16T01:05:03.758+0000] {processor.py:161} INFO - Started process (PID=872) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:05:03.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:05:03.765+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:05:03.765+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:05:03.787+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:05:03.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.058 seconds
+[2024-05-16T01:05:34.522+0000] {processor.py:161} INFO - Started process (PID=931) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:05:34.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:05:34.524+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:05:34.524+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:05:34.531+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:05:34.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.023 seconds
+[2024-05-16T01:06:05.206+0000] {processor.py:161} INFO - Started process (PID=990) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:06:05.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:06:05.210+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:06:05.210+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:06:05.223+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:06:05.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.030 seconds
+[2024-05-16T01:06:35.528+0000] {processor.py:161} INFO - Started process (PID=1049) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:06:35.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:06:35.531+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:06:35.530+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:06:35.541+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:06:35.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.028 seconds
+[2024-05-16T01:07:06.651+0000] {processor.py:161} INFO - Started process (PID=1108) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:07:06.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:07:06.655+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:07:06.654+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:07:06.665+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:07:06.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.032 seconds
+[2024-05-16T01:07:37.250+0000] {processor.py:161} INFO - Started process (PID=1167) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:07:37.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:07:37.253+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:07:37.253+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:07:37.266+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:07:37.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.032 seconds
+[2024-05-16T01:08:08.165+0000] {processor.py:161} INFO - Started process (PID=1225) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:08:08.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:08:08.170+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:08:08.169+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:08:08.187+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:08:08.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.041 seconds
+[2024-05-16T01:08:38.550+0000] {processor.py:161} INFO - Started process (PID=1284) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:08:38.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:08:38.553+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:08:38.553+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:08:38.566+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:08:38.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.035 seconds
+[2024-05-16T01:09:09.157+0000] {processor.py:161} INFO - Started process (PID=1343) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:09:09.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:09:09.163+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:09:09.162+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:09:09.186+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:09:09.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.061 seconds
+[2024-05-16T01:09:39.565+0000] {processor.py:161} INFO - Started process (PID=1402) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:09:39.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:09:39.568+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:09:39.568+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:09:39.584+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:09:39.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.041 seconds
+[2024-05-16T01:10:09.921+0000] {processor.py:161} INFO - Started process (PID=1461) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:10:09.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:10:09.927+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:10:09.927+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:10:09.945+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:10:09.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.052 seconds
+[2024-05-16T01:10:40.229+0000] {processor.py:161} INFO - Started process (PID=1520) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:10:40.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:10:40.232+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:10:40.232+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:10:40.241+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:10:40.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.029 seconds
+[2024-05-16T01:11:11.086+0000] {processor.py:161} INFO - Started process (PID=1585) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:11:11.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:11:11.090+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:11:11.090+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:11:11.132+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:11:11.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.068 seconds
+[2024-05-16T01:11:41.540+0000] {processor.py:161} INFO - Started process (PID=1644) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:11:41.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:11:41.544+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:11:41.543+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:11:41.553+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:11:41.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.031 seconds
+[2024-05-16T01:12:12.132+0000] {processor.py:161} INFO - Started process (PID=1703) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:12:12.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:12:12.135+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:12:12.134+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:12:12.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:12:12.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.031 seconds
+[2024-05-16T01:12:42.709+0000] {processor.py:161} INFO - Started process (PID=1762) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:12:42.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:12:42.713+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:12:42.712+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:12:42.722+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:12:42.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.031 seconds
+[2024-05-16T01:13:13.233+0000] {processor.py:161} INFO - Started process (PID=1821) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:13:13.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:13:13.237+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:13:13.237+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:13:13.255+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:13:13.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.051 seconds
+[2024-05-16T01:13:44.266+0000] {processor.py:161} INFO - Started process (PID=1880) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:13:44.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:13:44.271+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:13:44.271+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:13:44.294+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:13:44.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.052 seconds
+[2024-05-16T01:14:15.527+0000] {processor.py:161} INFO - Started process (PID=1939) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:14:15.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:14:15.530+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:14:15.530+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:14:15.542+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:14:15.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.034 seconds
+[2024-05-16T01:14:46.362+0000] {processor.py:161} INFO - Started process (PID=1998) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:14:46.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:14:46.368+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:14:46.368+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:14:46.390+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:14:46.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.054 seconds
+[2024-05-16T01:15:17.657+0000] {processor.py:161} INFO - Started process (PID=2057) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:15:17.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:15:17.665+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:15:17.665+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:15:17.745+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:15:17.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.108 seconds
+[2024-05-16T01:15:48.682+0000] {processor.py:161} INFO - Started process (PID=2116) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:15:48.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:15:48.686+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:15:48.686+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:15:48.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:15:48.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.047 seconds
+[2024-05-16T01:16:19.348+0000] {processor.py:161} INFO - Started process (PID=2175) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:16:19.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:16:19.352+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:16:19.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:16:19.369+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:16:19.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.046 seconds
+[2024-05-16T01:16:50.629+0000] {processor.py:161} INFO - Started process (PID=2234) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:16:50.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:16:50.634+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:16:50.634+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:16:50.655+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:16:50.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.056 seconds
+[2024-05-16T01:17:21.129+0000] {processor.py:161} INFO - Started process (PID=2293) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:17:21.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:17:21.133+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:17:21.133+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:17:21.155+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:17:21.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.051 seconds
+[2024-05-16T01:17:51.979+0000] {processor.py:161} INFO - Started process (PID=2352) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:17:51.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:17:51.984+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:17:51.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:17:52.013+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:17:52.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.062 seconds
+[2024-05-16T01:18:22.584+0000] {processor.py:161} INFO - Started process (PID=2411) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:18:22.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:18:22.592+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:18:22.592+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:18:22.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:18:22.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.074 seconds
+[2024-05-16T01:18:54.010+0000] {processor.py:161} INFO - Started process (PID=2470) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:18:54.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:18:54.016+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:18:54.015+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:18:54.043+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:18:54.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.059 seconds
+[2024-05-16T01:19:24.770+0000] {processor.py:161} INFO - Started process (PID=2529) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:19:24.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:19:24.775+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:19:24.775+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:19:24.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:19:24.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.090 seconds
+[2024-05-16T01:19:55.577+0000] {processor.py:161} INFO - Started process (PID=2588) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:19:55.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:19:55.583+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:19:55.582+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:19:55.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:19:55.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.081 seconds
+[2024-05-16T01:20:26.269+0000] {processor.py:161} INFO - Started process (PID=2647) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:20:26.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:20:26.274+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:20:26.273+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:20:26.310+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:20:26.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.068 seconds
+[2024-05-16T01:20:57.342+0000] {processor.py:161} INFO - Started process (PID=2706) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:20:57.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:20:57.357+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:20:57.357+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:20:57.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:20:57.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.080 seconds
+[2024-05-16T01:21:27.910+0000] {processor.py:161} INFO - Started process (PID=2765) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:21:27.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:21:27.916+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:21:27.915+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:21:27.943+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:21:27.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.062 seconds
+[2024-05-16T01:21:59.294+0000] {processor.py:161} INFO - Started process (PID=2824) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:21:59.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:21:59.300+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:21:59.300+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:21:59.327+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:21:59.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.065 seconds
+[2024-05-16T01:22:30.104+0000] {processor.py:161} INFO - Started process (PID=2883) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:22:30.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:22:30.110+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:22:30.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:22:30.140+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:22:30.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.076 seconds
+[2024-05-16T01:23:01.190+0000] {processor.py:161} INFO - Started process (PID=2942) to work on /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:23:01.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/GTAV_Steam_Reviews.xlsx for tasks to queue
+[2024-05-16T01:23:01.195+0000] {logging_mixin.py:188} INFO - [2024-05-16T01:23:01.195+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:23:01.226+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/GTAV_Steam_Reviews.xlsx
+[2024-05-16T01:23:01.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/GTAV_Steam_Reviews.xlsx took 0.062 seconds

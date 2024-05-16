@@ -1,0 +1,28 @@
+[2024-05-14T03:34:29.511+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: gtaV_reviews_project.visulaization manual__2024-05-14T03:34:13.435995+00:00 [queued]>
+[2024-05-14T03:34:29.517+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: gtaV_reviews_project.visulaization manual__2024-05-14T03:34:13.435995+00:00 [queued]>
+[2024-05-14T03:34:29.518+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-14T03:34:29.529+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): visulaization> on 2024-05-14 03:34:13.435995+00:00
+[2024-05-14T03:34:29.534+0000] {standard_task_runner.py:60} INFO - Started process 240 to run task
+[2024-05-14T03:34:29.537+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'gtaV_reviews_project', 'visulaization', 'manual__2024-05-14T03:34:13.435995+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/gtaV_reviews_pipeline.py', '--cfg-path', '/tmp/tmpnon40ety']
+[2024-05-14T03:34:29.538+0000] {standard_task_runner.py:88} INFO - Job 72: Subtask visulaization
+[2024-05-14T03:34:29.578+0000] {task_command.py:423} INFO - Running <TaskInstance: gtaV_reviews_project.visulaization manual__2024-05-14T03:34:13.435995+00:00 [running]> on host bc094ad74ee5
+[2024-05-14T03:34:29.641+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='gtaV_reviews_project' AIRFLOW_CTX_TASK_ID='visulaization' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T03:34:13.435995+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-14T03:34:13.435995+00:00'
+[2024-05-14T03:34:29.648+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/gtaV_reviews_pipeline.py", line 117, in visulaization
+    outfile.write(file_path)
+TypeError: write() argument must be str, not None
+[2024-05-14T03:34:29.661+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=gtaV_reviews_project, task_id=visulaization, execution_date=20240514T033413, start_date=20240514T033429, end_date=20240514T033429
+[2024-05-14T03:34:29.672+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 72 for task visulaization (write() argument must be str, not None; 240)
+[2024-05-14T03:34:29.710+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-05-14T03:34:29.722+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

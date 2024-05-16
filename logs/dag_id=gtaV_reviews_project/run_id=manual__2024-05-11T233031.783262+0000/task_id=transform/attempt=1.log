@@ -1,0 +1,14 @@
+[2024-05-11T23:30:44.779+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: gtaV_reviews_project.transform manual__2024-05-11T23:30:31.783262+00:00 [queued]>
+[2024-05-11T23:30:44.786+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: gtaV_reviews_project.transform manual__2024-05-11T23:30:31.783262+00:00 [queued]>
+[2024-05-11T23:30:44.787+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-11T23:30:44.799+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2024-05-11 23:30:31.783262+00:00
+[2024-05-11T23:30:44.805+0000] {standard_task_runner.py:60} INFO - Started process 862 to run task
+[2024-05-11T23:30:44.807+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'gtaV_reviews_project', 'transform', 'manual__2024-05-11T23:30:31.783262+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/gtaV_reviews_pipeline.py', '--cfg-path', '/tmp/tmpnor_60px']
+[2024-05-11T23:30:44.809+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask transform
+[2024-05-11T23:30:44.848+0000] {task_command.py:423} INFO - Running <TaskInstance: gtaV_reviews_project.transform manual__2024-05-11T23:30:31.783262+00:00 [running]> on host 93cdc42157bb
+[2024-05-11T23:30:44.912+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='gtaV_reviews_project' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-05-11T23:30:31.783262+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-11T23:30:31.783262+00:00'
+[2024-05-11T23:30:45.029+0000] {logging_mixin.py:188} INFO - Columns in the DataFrame: ['id', 'language', 'review', 'created', 'voted_up', 'votes_up', 'comment_count', 'steam_purchase', 'recieved_for_free', 'written_during_early_access', 'author_num_games_owned', 'author_num_reviews', 'author_playtime_forever', 'author_playtime_last_two_weeks', 'author_playtime_at_review', 'author_last_played']
+[2024-05-11T23:30:45.180+0000] {python.py:202} INFO - Done. Returned value was: intermediate.csv
+[2024-05-11T23:30:45.200+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=gtaV_reviews_project, task_id=transform, execution_date=20240511T233031, start_date=20240511T233044, end_date=20240511T233045
+[2024-05-11T23:30:45.223+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-11T23:30:45.237+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,13 @@
+[2024-05-13T04:32:08.303+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: gtaV_reviews_project.acquire manual__2024-05-13T04:32:04.936137+00:00 [queued]>
+[2024-05-13T04:32:08.310+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: gtaV_reviews_project.acquire manual__2024-05-13T04:32:04.936137+00:00 [queued]>
+[2024-05-13T04:32:08.311+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-05-13T04:32:08.324+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): acquire> on 2024-05-13 04:32:04.936137+00:00
+[2024-05-13T04:32:08.329+0000] {standard_task_runner.py:60} INFO - Started process 1894 to run task
+[2024-05-13T04:32:08.331+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'gtaV_reviews_project', 'acquire', 'manual__2024-05-13T04:32:04.936137+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/gtaV_reviews_pipeline.py', '--cfg-path', '/tmp/tmpji0a6_s0']
+[2024-05-13T04:32:08.332+0000] {standard_task_runner.py:88} INFO - Job 44: Subtask acquire
+[2024-05-13T04:32:08.375+0000] {task_command.py:423} INFO - Running <TaskInstance: gtaV_reviews_project.acquire manual__2024-05-13T04:32:04.936137+00:00 [running]> on host 9060b0e6df13
+[2024-05-13T04:32:08.464+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='gtaV_reviews_project' AIRFLOW_CTX_TASK_ID='acquire' AIRFLOW_CTX_EXECUTION_DATE='2024-05-13T04:32:04.936137+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-13T04:32:04.936137+00:00'
+[2024-05-13T04:32:19.807+0000] {python.py:202} INFO - Done. Returned value was: intermediate.csv
+[2024-05-13T04:32:19.827+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=gtaV_reviews_project, task_id=acquire, execution_date=20240513T043204, start_date=20240513T043208, end_date=20240513T043219
+[2024-05-13T04:32:19.867+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-13T04:32:19.884+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check
